@@ -1,0 +1,28 @@
+
+header{
+	color: grey;
+	font: 22px century gothic;
+}
+body{
+	background-color: black;
+}
+legend{
+
+	font: bold 22px arial;
+	color: white; 
+	
+}
+label{
+	color: white;
+}
+h2{
+	color: white;
+	font: bold 28px century gothic;
+}
+h3{
+	color: white;
+	font: 24px century gothic;
+}
+td{
+	color: white;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="misestilos_practica_4.css">
+	<title>Práctica 4</title>
+</head>
+<body>
+	<header>
+		<h1 align="center">Contrato de prestación de servicios</h1>
+	</header>
+	<section>
+		<form action="" method="post" enctype="text/plain">
+			<fieldset>
+				<legend>Datos del cliente</legend>
+
+				<table width="75%" align="center">
+					<tbody>
+						<tr>
+							<td><label for="nombre">Nombre:</label></td>
+							<td><label for="apelliop">Apellido paterno:</label></td>
+							<td><label for="apellidom">Apellido materno:</label></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="nombre" placeholder="Nombre"></td>
+							<td><input type="text" name="apelldiop" placeholder="Apellido Paterno"></td>
+							<td><input type="text" name="apelldiom" placeholder="Apellido Materno"></td>
+						</tr>
+						<tr>
+							<td><label for="ciudad">Ciudad</label></td>
+						</tr>
+						<tr>
+							<td>
+								<select size="5" name="ciudad">
+
+                                    <option>San Luis Potosí</option>
+
+                                    <option>Matehuala</option>
+
+                                    <option>Cd. Valles</option>
+
+                                    <option>Queretaro</option>
+
+                                    <option>Guanajuato</option>
+
+                                </select></td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>Servicio a contratar</legend>
+				<table width="75%" align="center">
+					<tbody>
+						<tr>
+							<td><h3>Selecciona el servicio a contratar </h3></td>
+						</tr>
+						<tr>
+							<td><label for="linea"></label>Línea telfónica:
+							<input type="checkbox" name="linea" checked></td>
+							<td><label for="internet"></label>Servicio de Internet:
+							<input type="checkbox" name="internet" checked></td>
+						</tr>
+
+					</tbody>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>Forma de pago</legend>
+				<table width="75%" align="center">
+					<tbody>
+						<tr>
+							<td><h4>Elige la forma de pago: </h4></td>
+						</tr>
+						<tr>
+							<td><label for="pago">TDC</label> 
+							<input type="radio" name="pago"> <br> 
+							<label for="pago">Tarjeta de debito</label>
+							<input type="radio" name="pago" checked> <br>
+							<label for="pago">Pago en efectivo</label>
+							<input type="radio" name="pago"> <br>
+							<label for="pago">Pago mediante cheque</label>
+							<input type="radio" name="pago"> <br>
+							<label for="pago">Transferencia bancaria</label>
+							<input type="radio" name="pago"> <br>
+							<label for="pago">Deposito bancario</label>
+							<input type="radio" name="pago"> <br>
+							<label for="pago">Pago en oxxo</label>
+							<input type="radio" name="pago"> <br></td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<input type="submit" name="enviar" value="Enviar datos de contratacion">
+				<input type="reset" name="borrar" value="Borrar datos del formulario">
+			</fieldset>
+			<br>
+			<h2 align="center">Práctica 4</h2>
+			<h3 align="center">HTML y CSS</h3>
+		</form>
+	</section>
+</body>
+</html>
